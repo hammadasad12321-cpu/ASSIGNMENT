@@ -1,0 +1,160 @@
+
+print("--- Question 1:Write a program to print numbers from 1 to 10 using loop. ---")
+#Answer:
+for i in range(1, 11):
+    print(i)
+
+
+print("\n--- Question 2:Write a program to print even numbers from 1 to 10 ---")
+#Answer:
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+
+print("\n--- Question 3:Write a program that print 'Happy Birthday!' five times on screen. ---")
+#Answer:
+for i in range(5):
+    print("Happy Birthday!")
+
+
+print("\n--- Question 4:Write a program that takes a number n as input from thr user and generates the first n terms of the series form by squaring the natural numbers. Sample output enter a number. 6 The first 6 terms of the series are: 1 4 9 16 25 36. ---")
+#Answer:
+n = int(input("Enter a number for series: "))
+print(f"The first {n} terms are:")
+for i in range(1, n + 1):
+    print(i, end=" ")
+
+
+print("\n--- Question 5:Write a program that prompts the user to input a number and prints its multiplication table. ---")
+#Answer:
+num = int(input("Enter a number for table: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+
+
+print("\n--- Question 6:Write a program that prompts the user to enter a number n, and then prints all the odd numbers between 1 and n. ---")
+#Answer:
+n = int(input("Enter a number: "))
+for i in range(1, n + 1, 2):
+    print(i)
+
+
+print("\n--- Question 7:Write a python program to print the number from 20 to 1 using a while loop. ---")
+#Answer:
+num = 20
+while num >=1:
+    print(num)
+    num -= 1 
+
+
+print("\n--- Question 8:Write a program that prompts the user to enter a number n and prints all the numbers from 1 to n. ---")
+#Answer:
+n = int(input("Enter a number: "))
+for i in range(1, n + 1):
+    print(i)
+
+
+print("\n--- Question 9:Write a program that prompts the user to enter a number and repeats this process 5 times.The program should accumulate the numbers entered and then display the final running total. ---")
+#Answer:
+total = 0
+for i in range(5):
+    num = int(input("Enter a number: "))
+    total += num
+    print("The final running total is:", total)
+
+
+print("\n--- Question 10:Write a python program that:" \
+" 1.Creates a list named clean_countries containing the following countries:[Bangladesh,India,Pakistan,China]"
+"2.Repeatedly asks the user to enter a country name. ---")
+#Answer:
+clean_countries = ["Bangladesh" , "India" , "Pakistan" , "China"]
+while True:
+          country = input("Enter a country name(or 'exit' to quit):")
+
+          if country.lower( ) == "exit":
+             break
+
+          if country in clean_countries:
+               print("country found in the list.")
+          else:
+               print("country not found in thr list.")print("--- Question 1:Write a program to print numbers from 1 to 10 using loop. ---")
+#Answer:
+for i in range(1, 11):
+    print(i)
+
+
+print("\n--- Question 2:Write a program to print even numbers from 1 to 10 ---")
+#Answer:
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+
+print("\n--- Question 3:Write a program that print 'Happy Birthday!' five times on screen. ---")
+#Answer:
+for i in range(5):
+    print("Happy Birthday!")
+
+
+print("\n--- Question 4:Write a program that takes a number n as input from thr user and generates the first n terms of the series form by squaring the natural numbers. Sample output enter a number. 6 The first 6 terms of the series are: 1 4 9 16 25 36. ---")
+#Answer:
+n = int(input("Enter a number for series: "))
+print(f"The first {n} terms are:")
+for i in range(1, n + 1):
+    print(i, end=" ")
+
+
+print("\n--- Question 5:Write a program that prompts the user to input a number and prints its multiplication table. ---")
+#Answer:
+num = int(input("Enter a number for table: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+
+
+print("\n--- Question 6:Write a program that prompts the user to enter a number n, and then prints all the odd numbers between 1 and n. ---")
+#Answer:
+n = int(input("Enter a number: "))
+for i in range(1, n + 1, 2):
+    print(i)
+
+
+print("\n--- Question 7:Write a python program to print the number from 20 to 1 using a while loop. ---")
+#Answer:
+num = 20
+while num >=1:
+    print(num)
+    num -= 1 
+
+
+print("\n--- Question 8:Write a program that prompts the user to enter a number n and prints all the numbers from 1 to n. ---")
+#Answer:
+n = int(input("Enter a number: "))
+for i in range(1, n + 1):
+    print(i)
+
+
+print("\n--- Question 9:Write a program that prompts the user to enter a number and repeats this process 5 times.The program should accumulate the numbers entered and then display the final running total. ---")
+#Answer:
+total = 0
+for i in range(5):
+    num = int(input("Enter a number: "))
+    total += num
+    print("The final running total is:", total)
+
+
+print("\n--- Question 10:Write a python program that:" \
+" 1.Creates a list named clean_countries containing the following countries:[Bangladesh,India,Pakistan,China]"
+"2.Repeatedly asks the user to enter a country name. ---")
+#Answer:
+clean_countries = ["Bangladesh" , "India" , "Pakistan" , "China"]
+while True:
+          country = input("Enter a country name(or 'exit' to quit):")
+
+          if country.lower( ) == "exit":
+             break
+
+          if country in clean_countries:
+               print("country found in the list.")
+          else:
+               print("country not found in thr list.")
